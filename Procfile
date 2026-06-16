@@ -1,1 +1,1 @@
-gunicorn tts_proxy:app
+gunicorn tts_proxy:app --timeout 120 --workers 1
